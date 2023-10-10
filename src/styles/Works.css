@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+
+.works-main {
+    display: flex;
+    margin: 110px;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Fira Code', monospace;
+}
+
+.Cards {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    /* justify-content: space-between; */
+}

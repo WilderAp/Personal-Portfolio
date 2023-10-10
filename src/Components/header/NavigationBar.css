@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo&display=swap');
+
+.header {
+    /* background-color: rgb(3, 14, 23); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    /* padding: 5px 10%; */
+    font-family: 'Capriola', sans-serif;
+    width: 100%;
+    /* color: white; */
+}
+
+;
+
+.header.nav-links {
+    list-style: none;
+}
+
+.header.nav-links li {
+    display: inline-block;
+    padding: 0 2%;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    list-style-type: none;
+}
+
+
+
+.logoContainer {
+    display: flex;
+    align-items: center;
+    /* border: 1px solid white; */
+    padding-right: 10px;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    transition: all 0.3s;
+}
+
+
+.logoName {
+    margin-left: 5px;
+    justify-content: space-between;
+}
+
+.select {
+    background-color: transparent;
+    border: none;
+    color: grey;
+    border-radius: 0;
+}
+
+.select option {
+    border-radius: 0;
+    background-color: transparent;
+    border: none;
+    color: grey;
+}
