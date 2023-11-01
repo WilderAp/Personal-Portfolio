@@ -18,10 +18,11 @@
 .versicúlo {
     display: flex;
     text-align: center;
-    border: 1px groove white ;
+    border: 1px groove #168aad ;
     /* width: fit-content; */
     /* width:max-content; */
     padding: 15px;
     justify-content: center;
     align-items: center;
+    /* width: 1500px; */
 }

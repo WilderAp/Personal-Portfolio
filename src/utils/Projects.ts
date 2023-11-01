@@ -5,4 +5,4 @@ module.exports = [
         description: "A Final project at Henry, where we developed and created a website focus on finding missing people.",
 
     }
-]
+];

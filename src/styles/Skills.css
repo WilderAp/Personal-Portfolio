@@ -1,6 +1,7 @@
 .skills-main{
     display: flex;
     align-items: flex-start;
-    justify-content: flex-end;
+    justify-content: center;
     font-family: 'Fira Code', monospace;
+    margin-top: 70px;
 }

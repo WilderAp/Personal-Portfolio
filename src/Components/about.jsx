@@ -3,16 +3,16 @@ import wil from "../images/will.jpg"
 
 const AboutMe = () => {
     return (
-        <div className="about">
+        <div className="about" id="about">
             
-            <div className='works-main' style={{ fontSize: "24px", flexDirection: "column", marginTop: "0px"}}>
-                <span><span style={{ color: 'purple' }}>#</span>about-me <span style={{ color: "purple" }}>------------------------------------</span></span>
+            <div className='works-main' style={{ fontSize: "24px", flexDirection: "column", marginTop: "80px"}}>
+                <span><span style={{ color: '#8338ec' }}>#</span>about-me <span style={{ color: "#168aad" }}>------------------------------------</span></span>
                 <img src={wil} alt="about Image" style={{width: "500px", marginTop: "15px"}} />
             </div>
 
             <main className='about-main'>
                 <span>
-                    Hi there, My name is Wilder!
+                    Hi, This is Wilder!
                 </span>
                 <br />
                 <br />

@@ -19,31 +19,31 @@ const NavigationBar = () => {
             <nav className="navbar">
                 <ul className="menu">
                     <li>
-                        <Link to="/" style={{  textDecoration: 'none', color:"inherit" }}>
-                            <span style={{color: "purple"}}>#</span>
+                        <a href="#home-main" style={{  textDecoration: 'none', color:"inherit" }}>
+                            <span style={{color: "#8338ec"}}>#</span>
                             <span style={{color: "#adb5bd"}}>home</span>
-                        </Link>
+                        </a>
                     </li>
 
                     <li>
-                        <Link to="/#works" style={{  textDecoration: 'none', color:"inherit" }}>
-                            <span style={{ color: "purple" }}>#</span>
+                        <a href="#Projects" style={{  textDecoration: 'none', color:"inherit" }}>
+                            <span style={{ color: "#8338ec" }}>#</span>
                             <span style={{ color: '#adb5bd' }}>works</span>
-                        </Link>
+                        </a>
                     </li>
 
                     <li>
-                        <Link to="/#about-me" style={{  textDecoration: 'none', color:"inherit" }}>
-                            <span style={{ color: "purple" }}>#</span>
+                        <a href="#about" style={{  textDecoration: 'none', color:"inherit" }}>
+                            <span style={{ color: "#8338ec" }}>#</span>
                             <span style={{ color: '#adb5bd' }}>about-me</span>
-                        </Link>
+                        </a>
                     </li>
 
                     <li>
-                        <Link to="/#contacts" style={{  textDecoration: 'none', color:"inherit" }}>
-                            <span style={{ color: "purple" }}>#</span>
+                        <a href="#footer" style={{  textDecoration: 'none', color:"inherit" }}>
+                            <span style={{ color: "#8338ec" }}>#</span>
                             <span style={{ color: '#adb5bd' }}>contacts</span>
-                        </Link>
+                        </a>
                     </li>
 
                     <figure className="ThemeButton" style={{color: "#adb5bd"}} >

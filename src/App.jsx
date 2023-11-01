@@ -9,6 +9,7 @@ import Works from './Components/works';
 import AboutMe from './Components/about';
 import Skills from './Components/skills';
 import Layout from './Components/layout';
+import Footer from './Components/footer/footer';
 
 
 function App() {
@@ -30,8 +31,12 @@ function App() {
           element: <AboutMe />,
         },
         {
-          path: "/contacts",
+          path: "/skills",
           element: <Skills />,
+        },
+        {
+          path: "/contacts",
+          element: <Footer/>,
         }
 
       ]
@@ -47,7 +52,6 @@ function App() {
   return (
     <ThemeProvider>
       <RouterProvider  router={routes} />
-
     </ThemeProvider>
   )
 

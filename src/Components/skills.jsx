@@ -3,14 +3,15 @@ import "../styles/Skills.css"
 
 const Skills = () => {
     return (
-        <div>
+        <div className="Skills" id="Skills">
             <div className='works-main' style={{ fontSize: "24px", marginBottom: "20px" }}>
-                <span><span style={{ color: 'purple' }}>#</span>skills <span style={{ color: "purple" }}>------------------------------------</span></span>
+                <span><span style={{ color: '#168aad' }}>#</span>skills <span style={{ color: "#8338ec" }}>------------------------------------</span></span>
             </div>
+            <br />
             <main className='skills-main'>
                 <Card style={{ width: '14rem', margin: "2rem", border: "1px groove grey" }}>
                     <Card.Body style={{ display: 'flex', flexDirection: 'column', alignItems: 'left', textAlign: 'left' }}>
-                        <Card.Title style={{ margin: "5px",  }}>Languajes</Card.Title>
+                        <Card.Title style={{ margin: "5px", color: "#168aad"  }}>Languajes</Card.Title>
                         <hr />
                         <Card.Text style={{ margin: "5px", color: "#adb5bd" }}>
                             JavaScript ----
@@ -20,7 +21,7 @@ const Skills = () => {
                 </Card>
                 <Card style={{ width: '14rem', margin: "2rem", border: "1px groove grey" }}>
                     <Card.Body style={{ display: 'flex', flexDirection: 'column', alignItems: 'left', textAlign: 'left' }}>
-                        <Card.Title style={{ margin: "5px",  }}>Databases</Card.Title>
+                        <Card.Title style={{ margin: "5px", color: "#8338ec"  }}>Databases</Card.Title>
                         <hr />
                         <Card.Text style={{ margin: "5px", color: "#adb5bd" }}>
                             MySQL ----
@@ -30,7 +31,7 @@ const Skills = () => {
                 </Card>
                 <Card style={{ width: '14rem', margin: "2rem", border: "1px groove grey" }}>
                     <Card.Body style={{ display: 'flex', flexDirection: 'column', alignItems: 'left', textAlign: 'left' }}>
-                        <Card.Title style={{ margin: "5px",  }}>Frameworks & Libraries</Card.Title>
+                        <Card.Title style={{ margin: "5px", color: "#168aad"  }}>Frameworks & Libraries</Card.Title>
                         <hr />
                         <Card.Text style={{ margin: "5px", color: "#adb5bd" }}>
                             React - Vite - Redux - Express.js - Sequelize  
@@ -39,7 +40,7 @@ const Skills = () => {
                 </Card>
                 <Card style={{ width: '14rem', margin: "2rem", border: "1px groove grey" }}>
                     <Card.Body style={{ display: 'flex', flexDirection: 'column', alignItems: 'left', textAlign: 'left' }}>
-                        <Card.Title style={{ margin: "5px" }}>Tools</Card.Title>
+                        <Card.Title style={{ margin: "5px", color: "#8338ec" }}>Tools</Card.Title>
                         <hr />
                         <Card.Text style={{ margin: "5px", color: "#adb5bd" }}>
                             VSCode ---
@@ -50,7 +51,7 @@ const Skills = () => {
                 </Card>
                 <Card style={{ width: '14rem', margin: "2rem", border: "1px groove grey" }}>
                     <Card.Body style={{ display: 'flex', flexDirection: 'column', alignItems: 'left', textAlign: 'left' }}>
-                        <Card.Title style={{ margin: "5px",  }}>Others</Card.Title>
+                        <Card.Title style={{ margin: "5px", color: "#168aad" }}>Others</Card.Title>
                         <hr />
                         <Card.Text style={{ margin: "5px", color: "#adb5bd" }}>
                             HTML5 --

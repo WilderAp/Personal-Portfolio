@@ -5,16 +5,19 @@ import Works from "./works";
 import Skills from "./skills";
 import AboutMe from "./about";
 import "./layout.css"
+import Footer from "./footer/footer";
 const Layout = () => {
     return (
         <>
             <NavigationBar />
+            
         <main className="main_layout">
                     <section id="home">
                         <Home />
                     </section>
-                    <span className="versicúlo">THE LORD HAS PROMISED TO SAVE ME. THEREFORE, WE WILL PLAY OUR MELODIES IN THE HOUSE OF THE LORD ALL THE DAYS OF OUR LIFE.</span>
-                    <span style={{border: "1px groove inherit", alignSelf: "center"}}> ISAIAH 38:20</span>
+                    <span className="versicúlo">"THE LORD HAS PROMISED TO SAVE ME. THEREFORE, WE WILL PLAY OUR MELODIES IN THE HOUSE OF THE LORD ALL THE DAYS OF OUR LIFE{""}"</span>
+                    {/* <span className="versicúlo" style={{color: "#168aad"}}>THE LORD HAS PROMISED TO SAVE ME. THEREFORE, WE WILL PLAY OUR MELODIES IN THE HOUSE OF THE LORD ALL THE DAYS OF OUR LIFE.</span> */}
+                    <span style={{ alignSelf: "center", display: "flex", justifyContent: "center", margin:"7px"}}> ISAIAH 38:20</span>
                     <br />
                     <section id="works">
                         <Works />
@@ -27,7 +30,9 @@ const Layout = () => {
                     <section id="contacts">
                         <AboutMe />
                     </section>
+                    
         </main>
+            <Footer/>
         </>
     )
 }
