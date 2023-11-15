@@ -43,7 +43,7 @@ const Works = () => {
                             I created this FullStack project using Node & React, from an online free api of Rick & Morty characters while studying at Henry
                         </Card.Text>
                         <button type="button" style={{ width: "120px", height: "30px", backgroundColor: "transparent", border: "1px groove #8338ec", marginLeft:"90px", marginTop:"5px" }}>
-                            <a style={{ textDecoration: "none", color: "#168aad", fontSize: "15px" }} href="http://localhost:3001/" rel="noreferrer" target="_blank">Go </a>
+                            <a style={{ textDecoration: "none", color: "#168aad", fontSize: "15px" }} href="https://youtu.be/p-nCXwIAibE" rel="noreferrer" target="_blank">Go </a>
                         </button>
                     </Card.Body>
                 </Card>
@@ -58,7 +58,7 @@ const Works = () => {
                             and create
                         </Card.Text>
                         <button type="button" style={{ width: "120px", height: "30px", backgroundColor: "transparent", border: "1px groove #8338ec", marginLeft:"90px", marginTop:"5px" }}>
-                            <a style={{ textDecoration: "none", color: "#168aad", fontSize: "17px" }} href="http://localhost:3001/" rel="noreferrer" target="_blank">Go </a>
+                            <a style={{ textDecoration: "none", color: "#168aad", fontSize: "17px" }} href="https://youtu.be/cYlUCepjPfc" rel="noreferrer" target="_blank">Go </a>
                         </button>
                     </Card.Body>
                 </Card>
