@@ -1,7 +1,7 @@
 
 import yo from "../images/IMG_0019 EDITED.png"
-// import yo2 from "../images/IMG_0019 2 EDITED.png"
-// import yo3 from "../images/FOTO EDITED.png"
+import yo2 from "../images/IMG_0019 2 EDITED.png"
+import yo3 from "../images/FOTO EDITED.png"
 import "../styles/Home.css"
 
 const Home = () => {
@@ -28,9 +28,9 @@ const Home = () => {
             <div style={{display:"flex", flexDirection: "column", }}>
 
                 {/* style={{ display: 'flex', flexDirection: "column", alignItems: "flex-end" }} */}
-                <img style={{display:"flex", height: '500px', margin: '0', padding: '0' }} src={yo} alt="Foto personal" className="imagen" />
+                <img style={{display:"flex", height: '500px', margin: '0', padding: '0' }} src={yo2} alt="Foto personal" className="imagen" />
                 {/* , alignSelf: 'flex-start' } */}
-                <span style={{ color: '#adb5bd', border: '1px groove grey', padding: '7px' }}><span style={{ border: '1px solid #168aad', width: '5px', backgroundColor: '#168aad', color: '#168aad' }}>....</span> Currently working on <span >Portfolio</span></span>
+                <span style={{ color: '#adb5bd', border: '1px groove grey', padding: '7px' }}><span style={{ border: '1px solid #168aad', width: '5px', backgroundColor: '#168aad', color: '#168aad' }}>....</span> Currently working on <span >React Native app: {"Moviegram"}</span></span>
             </div>
         </main>
     )

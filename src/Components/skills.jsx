@@ -24,8 +24,9 @@ const Skills = () => {
                         <Card.Title style={{ margin: "5px", color: "#8338ec"  }}>Databases</Card.Title>
                         <hr />
                         <Card.Text style={{ margin: "5px", color: "#adb5bd" }}>
-                            MySQL ----
                             PostgreSQL
+                            ----
+                            Firebase 
                         </Card.Text>
                     </Card.Body>
                 </Card>
@@ -34,7 +35,7 @@ const Skills = () => {
                         <Card.Title style={{ margin: "5px", color: "#168aad"  }}>Frameworks & Libraries</Card.Title>
                         <hr />
                         <Card.Text style={{ margin: "5px", color: "#adb5bd" }}>
-                            React - Vite - Redux - Express.js - Sequelize  
+                            React Native - ReactJS - Vite - Redux - Express.js - Sequelize  
                         </Card.Text>
                     </Card.Body>
                 </Card>
@@ -56,7 +57,7 @@ const Skills = () => {
                         <Card.Text style={{ margin: "5px", color: "#adb5bd" }}>
                             HTML5 --
                             CSS3 --
-                            AJAX
+                            JQuery --
                         </Card.Text>
                     </Card.Body>
                 </Card>
