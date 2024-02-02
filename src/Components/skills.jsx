@@ -14,8 +14,8 @@ const Skills = () => {
                         <Card.Title style={{ margin: "5px", color: "#168aad"  }}>Languajes</Card.Title>
                         <hr />
                         <Card.Text style={{ margin: "5px", color: "#adb5bd" }}>
-                            JavaScript ----
-                            NodeJS
+                            JavaScript -- TypeScript -- Phyton --
+                            NodeJS  
                         </Card.Text>
                     </Card.Body>
                 </Card>
@@ -32,10 +32,19 @@ const Skills = () => {
                 </Card>
                 <Card style={{ width: '14rem', margin: "2rem", border: "1px groove grey" }}>
                     <Card.Body style={{ display: 'flex', flexDirection: 'column', alignItems: 'left', textAlign: 'left' }}>
-                        <Card.Title style={{ margin: "5px", color: "#168aad"  }}>Frameworks & Libraries</Card.Title>
+                        <Card.Title style={{ margin: "5px", color: "#168aad"  }}>Frameworks & Libraries {"(Front-end)"}</Card.Title>
                         <hr />
                         <Card.Text style={{ margin: "5px", color: "#adb5bd" }}>
-                            React Native - ReactJS - Vite - Redux - Express.js - Sequelize  
+                         React - Redux - Zustand - React Native - MaterialUI -- Boostrap
+                        </Card.Text>
+                    </Card.Body>
+                </Card>
+                <Card style={{ width: '14rem', margin: "2rem", border: "1px groove grey" }}>
+                    <Card.Body style={{ display: 'flex', flexDirection: 'column', alignItems: 'left', textAlign: 'left' }}>
+                        <Card.Title style={{ margin: "5px", color: "#168aad"  }}>Frameworks & Libraries {"(Back-end)"}</Card.Title>
+                        <hr />
+                        <Card.Text style={{ margin: "5px", color: "#adb5bd" }}>
+                            ExpressJS - Sequelize - NestJS - Jest
                         </Card.Text>
                     </Card.Body>
                 </Card>
@@ -58,6 +67,7 @@ const Skills = () => {
                             HTML5 --
                             CSS3 --
                             JQuery --
+                            SCRUM
                         </Card.Text>
                     </Card.Body>
                 </Card>

@@ -1,4 +1,3 @@
-//import { Outlet } from "react-router-dom";
 import NavigationBar from "./header/NavigationBar";
 import Home from "./home";
 import Works from "./works";
@@ -6,7 +5,10 @@ import Skills from "./skills";
 import AboutMe from "./about";
 import "./layout.css"
 import Footer from "./footer/footer";
+import { useStore } from "../store/store";
+
 const Layout = () => {
+    const { language }= useStore();
     return (
         <>
             <NavigationBar />
@@ -15,9 +17,9 @@ const Layout = () => {
                     <section id="home">
                         <Home />
                     </section>
-                    <span className="versicúlo">"THE LORD HAS PROMISED TO SAVE ME. THEREFORE, WE WILL PLAY OUR MELODIES IN THE HOUSE OF THE LORD ALL THE DAYS OF OUR LIFE{""}"</span>
+                    <span className="versicúlo">{`"${language.Bible}"`}</span>
                     {/* <span className="versicúlo" style={{color: "#168aad"}}>THE LORD HAS PROMISED TO SAVE ME. THEREFORE, WE WILL PLAY OUR MELODIES IN THE HOUSE OF THE LORD ALL THE DAYS OF OUR LIFE.</span> */}
-                    <span style={{ alignSelf: "center", display: "flex", justifyContent: "center", margin:"7px"}}> ISAIAH 38:20</span>
+                    <span style={{ alignSelf: "center", display: "flex", justifyContent: "center", margin:"7px"}}>{language.verse}</span>
                     <br />
                     <section id="works">
                         <Works />

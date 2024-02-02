@@ -1,0 +1,41 @@
+{
+    "title": "Hola soy Wilder un Desarrollador Fullstack back-end",
+    "description": "Y construyo Sitios Web utilizando tecnologías TOP como React & NodeJS",
+    "button": "Contactáme !!",
+    "cv": "HV",
+    "workingon": "Actualmente trabajando en ",
+    "workingon2": "React Native app: Moviegram",
+    "header": "ES",
+    "home": "principal",
+    "works": "proyectos",
+    "aboutme": "sobre-mi",
+    "contacts": "contactos",
+    "Bible": "EL SEÑOR A PROMETIDO SALVARNOS, POR LO TANTO, CANTAREMOS NUESTRAS MELODÍAS EN LA CASA DEL SEÑOR TODOS LOS DÍAS DE NUESTRA VIDA",
+    "verse": "ISAÍAS 38:20",
+    "viewall": "Ver todo ~~>",
+    "cardsbutton": "Ir",
+    "byr": {
+        "title": "B&R - Busqueda y Rescate",
+        "description": "Mi proyecto final de Henry junto a mis compañeros de estudio, en el cúal desarrollamos y diseñamos un sitio web enfocado en encontrar a personas desaparecidas"
+    },
+    "rickymorty": {
+        "title": "Rick & Morty - API",
+        "description": "Creé un sitio web enfocado en la API de la reconocida serie animada Rick & Morty, utilizando tecnologías como React, Redux y Nodejs"
+    },
+    "Videogang": {
+        "title": "VideoGang - API",
+        "description": "En este proyecto utilicé una API de videojuegos online, en el cúal las personas pueden consultar información sobre un videojuego en especifico"
+    },
+    "Crud": {
+        "title": "ToDos - CRUD",
+        "description": "He creado esta API FullStack para poner en práctica mis conocimientos de TypeScript y Zustand."
+    },
+    "skills": {
+        "languages": "Lenguajes",
+        "databases": "Bases Datos",
+        "tools": "Herramientas",
+        "others": "Otros"
+    },
+    "aboutTitle": "Hola, aquí Wilder!",
+    "about": "Vivo en Colombia, él país del café y el campo!, Empecé a interesarme por la programación a eso de finales del año 2022 y en el año 2023 tomé la desición de tirarme de lleno al mundo del Desarrollo Web, desición de la cuál no me arrepiento, ya que siento que en cada nuevo reto aprendo y crezco mucho como persona y como desarrollador, he conocido personas íncreibles y estudiado lo que me apasiona!."
+}

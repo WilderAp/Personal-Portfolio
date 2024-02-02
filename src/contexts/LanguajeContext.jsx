@@ -1,22 +1,26 @@
-import {  createContext, useState  } from "react";
+import {  createContext, useEffect, useState  } from "react";
+import spanish from "../utils/spanish.json";
+import english from "../utils/english.json";
 
-const LanguajeContext = createContext();
+export const LanguajeContext = createContext({languaje: english});
  
-const LanguajeProvider = () => {
-    const [languaje, setLanguaje] = useState({
-        english: ["hello world"],
-        español: ["hola mundo"],
-    })
+const LanguajeProvider = ({children}) => {
+    
+    useEffect(() => {
+        console.log(LanguajeContext);
+    }, [languaje]);
 
     return (
         
-        <LanguajeContext.Provider value={{languaje, setLanguaje}}>
+        <LanguajeContext.Provider >
 
-            
+            {children}
 
         </LanguajeContext.Provider>
         
     )
 };
 
-export default LanguajeProvider;
+
+
+export default {LanguajeProvider};

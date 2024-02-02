@@ -1,0 +1,41 @@
+{
+    "title": "Hi I am Wilder a Fullstack back-end developer",
+    "description": "And I craft Websites using tecnologies like React & NodeJS",
+    "button": "Contact me !!",
+    "cv": "CV",
+    "workingon": "Currently working on ",
+    "workingon2": "React Native app: Moviegram",
+    "header": "EN",
+    "home": "home",
+    "works": "works",
+    "aboutme": "about-me",
+    "contacts": "contacts",
+    "Bible": "THE LORD HAS PROMISED TO SAVE ME. THEREFORE, WE WILL PLAY OUR MELODIES IN THE HOUSE OF THE LORD ALL THE DAYS OF OUR LIFE",
+    "verse": "ISAIAH 38:20",
+    "viewall": "View all ~~>",
+    "cardsbutton": "Go",
+    "byr": {
+        "title": "B&R - Search and Rescue",
+        "description": "My final project at Henry where me and my teammates developed and designed a website focus on finding missing people."
+    },
+    "rickymorty": {
+        "title": "Rick & Morty - API",
+        "description": "I created this FullStack project using Node & React, from an online free api of Rick & Morty characters while studying at Henry"
+    },
+    "Videogang": {
+        "title": "VideoGang",
+        "description": "I created this FullStack API as my Individual project at Henry, oriented to practice and create"
+    },
+    "Crud": {
+        "title": "ToDos - CRUD",
+        "description": "I created this FullStack API as to put in practice my TypeScript & Zustand knowledged"
+    },
+    "skills": {
+        "languages": "Languages",
+        "databases": "Databases",
+        "tools": "Tools",
+        "others": "Others"
+    },
+    "aboutTitle": "Hi, this is Wilder!",
+    "about": "I live in Colombia, the country of coffee and the countryside, I became interested in programming at the end of the year 2022 and in 2023 I took the decision to throw myself into the world of Web Development, a decision which I do not regret, because I feel that in each new challenge I learn and grow a lot as a person and as a developer, I have met incredible people and studied what I love."
+}

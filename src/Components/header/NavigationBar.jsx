@@ -2,10 +2,12 @@ import  "./NavigationBar.css"
 import { Link } from 'react-router-dom';
 import { DiCode } from "react-icons/di"
 import ThemeButton from "../Theme/ThemeButton";
-
+import LanguajeButton from "../Languajes/LanguajeButton";
+import { useStore } from "../../store/store"
 
 const NavigationBar = () => {
-
+    const { language }= useStore();    
+    console.log(language);
     return (
         <header className="header">
 
@@ -21,28 +23,28 @@ const NavigationBar = () => {
                     <li>
                         <a href="#home-main" style={{  textDecoration: 'none', color:"inherit" }}>
                             <span style={{color: "#8338ec"}}>#</span>
-                            <span style={{color: "#adb5bd"}}>home</span>
+                            <span style={{color: "#adb5bd"}}>{language.home}</span>
                         </a>
                     </li>
 
                     <li>
                         <a href="#Projects" style={{  textDecoration: 'none', color:"inherit" }}>
                             <span style={{ color: "#8338ec" }}>#</span>
-                            <span style={{ color: '#adb5bd' }}>works</span>
+                            <span style={{ color: '#adb5bd' }}>{language.works}</span>
                         </a>
                     </li>
 
                     <li>
                         <a href="#about" style={{  textDecoration: 'none', color:"inherit" }}>
                             <span style={{ color: "#8338ec" }}>#</span>
-                            <span style={{ color: '#adb5bd' }}>about-me</span>
+                            <span style={{ color: '#adb5bd' }}>{language.aboutme}</span>
                         </a>
                     </li>
 
                     <li>
                         <a href="#footer" style={{  textDecoration: 'none', color:"inherit" }}>
                             <span style={{ color: "#8338ec" }}>#</span>
-                            <span style={{ color: '#adb5bd' }}>contacts</span>
+                            <span style={{ color: '#adb5bd' }}>{language.contacts}</span>
                         </a>
                     </li>
 
@@ -50,10 +52,8 @@ const NavigationBar = () => {
                         <ThemeButton />
                     </figure>
 
-                    <select className="select" style={{color: "#adb5bd"}}>
-                        <option className="option" value="EN">EN</option>
-                        <option value="ES">ES</option>
-                    </select>
+                    <LanguajeButton />
+                    
                 </ul>
 
             </nav>
